@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript</title>
+  </head>
+  <body>
+    <script>
+      let firstName = "Cragi";
+      let lastName = "  Shoemaker";
+      let twitter = "@craigshoemaker";
+
+      let person = {
+        firstName: "Craig",
+        lastName: "Shoemaker",
+        twitter: "@craigshoemaker",
+        greet: function () {
+          console.log("My name is " + this.firstName);
+        },
+      };
+
+      person.greet();
+    </script>
+  </body>
+</html>
